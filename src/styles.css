@@ -1,0 +1,40 @@
+.App h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: crimson;
+}
+.card {
+  border: 1px solid wheat;
+  background-color: whitesmoke;
+  height: 400px;
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: 100px;
+  margin-left: 140px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px gray;
+  display: table;
+  justify-content: space-between;
+}
+.liste {
+  border: 1px solid #fabd14;
+  background-color: wheat;
+  justify-content: first baseline;
+  margin-bottom: 5px;
+}
+
+button {
+  color: black;
+  background-color: hsl(240, 90%, 59%);
+  width: 200px;
+  height: 25px;
+  border-radius: 6px;
+  border: 0px;
+}
+button:hover {
+  background-color: blueviolet;
+}
+.card:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
